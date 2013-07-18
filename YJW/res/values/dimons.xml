@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ask_option_margin">8dp</dimen>
+    <dimen name="camera_button_margin">30dp</dimen>
+    <dimen name="spinner_button_margin_bottom">10dp</dimen>
+    <dimen name="ask_textarea_margin_bottom">10dp</dimen>
+    <dimen name="login_with_3rd_margin">12dp</dimen>
+    <dimen name="ChattingContentMinHeight">49.0dip</dimen>
+
+</resources>

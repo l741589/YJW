@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>UnitTest</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/yjw/bean</name>
+			<type>2</type>
+			<location>D:/Workspaces/YjwServer/src/com/yjw/bean</location>
+		</link>
+		<link>
+			<name>src/com/yjw/util</name>
+			<type>2</type>
+			<location>D:/Workspaces/YjwServer/src/com/yjw/util</location>
+		</link>
+	</linkedResources>
+</projectDescription>

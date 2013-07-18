@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>RegisterAction</servlet-name>
+  <servlet-class>com.yjw.servlet.RegisterAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>LogonAction</servlet-name>
+  <servlet-class>com.yjw.servlet.LogonAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>LoginAction</servlet-name>
+  <servlet-class>com.yjw.servlet.LoginAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddDealAction</servlet-name>
+  <servlet-class>com.yjw.servlet.AddDealAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>DelDealAction</servlet-name>
+  <servlet-class>com.yjw.servlet.DelDealAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>SyncDealAction</servlet-name>
+  <servlet-class>com.yjw.servlet.SyncDealAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>UpdateDealAction</servlet-name>
+  <servlet-class>com.yjw.servlet.UpdateDealAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetDealAction</servlet-name>
+  <servlet-class>com.yjw.servlet.GetDealAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ForwardDealAction</servlet-name>
+  <servlet-class>com.yjw.servlet.ForwardDealAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ChatAction</servlet-name>
+  <servlet-class>com.yjw.servlet.ChatAction</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetDealSharedUsersAction</servlet-name>
+  <servlet-class>com.yjw.servlet.GetDealSharedUsersAction</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeclineDealAction</servlet-name>
+    <servlet-class>com.yjw.servlet.DeclineDealAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AcceptDealAction</servlet-name>
+    <servlet-class>com.yjw.servlet.AcceptDealAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterValidateAction</servlet-name>
+    <servlet-class>com.yjw.servlet.RegisterValidateAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResendValidateMsgAction</servlet-name>
+    <servlet-class>com.yjw.servlet.ResendValidateMsgAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FinishRegisterAction</servlet-name>
+    <servlet-class>com.yjw.servlet.FinishRegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OuputTestAction</servlet-name>
+    <servlet-class>com.yjw.servlet.OuputTestAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OutputVersionAction</servlet-name>
+    <servlet-class>com.yjw.servlet.OutputVersionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OutputBalanceAction</servlet-name>
+    <servlet-class>com.yjw.servlet.OutputBalanceAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetValidateCodeAction</servlet-name>
+    <servlet-class>com.yjw.servlet.GetValidateCodeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserAction</servlet-name>
+    <servlet-class>com.yjw.servlet.GetUserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SyncTransAction</servlet-name>
+    <servlet-class>com.yjw.servlet.SyncTransAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTransAction</servlet-name>
+    <servlet-class>com.yjw.servlet.GetTransAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserByPhoneAction</servlet-name>
+    <servlet-class>com.yjw.servlet.GetUserByPhoneAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTransAction</servlet-name>
+    <servlet-class>com.yjw.servlet.AddTransAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelTransAction</servlet-name>
+    <servlet-class>com.yjw.servlet.DelTransAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfirmTransAction</servlet-name>
+    <servlet-class>com.yjw.servlet.ConfirmTransAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfTransAction</servlet-name>
+    <servlet-class>com.yjw.servlet.ConfTransAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SyncUserAction</servlet-name>
+    <servlet-class>com.yjw.servlet.SyncUserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ControlAction</servlet-name>
+    <servlet-class>com.yjw.servlet.ControlAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApplyImageID</servlet-name>
+    <servlet-class>com.yjw.servlet.ApplyImageID</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddImageAction</servlet-name>
+    <servlet-class>com.yjw.servlet.AddImageAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetImageAction</servlet-name>
+    <servlet-class>com.yjw.servlet.GetImageAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPieceAction</servlet-name>
+    <servlet-class>com.yjw.servlet.GetPieceAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPieceAction</servlet-name>
+    <servlet-class>com.yjw.servlet.AddPieceAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResultAction</servlet-name>
+    <servlet-class>com.yjw.servlet.ResultAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelUserAction</servlet-name>
+    <servlet-class>com.yjw.servlet.DelUserAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>RegisterAction</servlet-name>
+  <url-pattern>/RegisterAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>LogonAction</servlet-name>
+  <url-pattern>/LogonAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>LoginAction</servlet-name>
+  <url-pattern>/LoginAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddDealAction</servlet-name>
+  <url-pattern>/AddDealAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DelDealAction</servlet-name>
+  <url-pattern>/DelDealAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>SyncDealAction</servlet-name>
+  <url-pattern>/SyncDealAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>UpdateDealAction</servlet-name>
+  <url-pattern>/UpdateDealAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetDealAction</servlet-name>
+  <url-pattern>/GetDealAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ForwardDealAction</servlet-name>
+  <url-pattern>/ForwardDealAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ChatAction</servlet-name>
+  <url-pattern>/ChatAction</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetDealSharedUsersAction</servlet-name>
+  <url-pattern>/GetDealSharedUsersAction</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeclineDealAction</servlet-name>
+    <url-pattern>/DeclineDealAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AcceptDealAction</servlet-name>
+    <url-pattern>/AcceptDealAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterValidateAction</servlet-name>
+    <url-pattern>/RegisterValidateAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResendValidateMsgAction</servlet-name>
+    <url-pattern>/ResendValidateMsgAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FinishRegisterAction</servlet-name>
+    <url-pattern>/FinishRegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OuputTestAction</servlet-name>
+    <url-pattern>/OuputTestAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutputVersionAction</servlet-name>
+    <url-pattern>/OutputVersionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutputBalanceAction</servlet-name>
+    <url-pattern>/OutputBalanceAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetValidateCodeAction</servlet-name>
+    <url-pattern>/GetValidateCodeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserAction</servlet-name>
+    <url-pattern>/GetUserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SyncTransAction</servlet-name>
+    <url-pattern>/SyncTransAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTransAction</servlet-name>
+    <url-pattern>/GetTransAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserByPhoneAction</servlet-name>
+    <url-pattern>/GetUserByPhoneAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTransAction</servlet-name>
+    <url-pattern>/AddTransAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelTransAction</servlet-name>
+    <url-pattern>/DelTransAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmTransAction</servlet-name>
+    <url-pattern>/ConfirmTransAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfTransAction</servlet-name>
+    <url-pattern>/ConfTransAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SyncUserAction</servlet-name>
+    <url-pattern>/SyncUserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ControlAction</servlet-name>
+    <url-pattern>/ControlAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyImageID</servlet-name>
+    <url-pattern>/ApplyImageID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddImageAction</servlet-name>
+    <url-pattern>/AddImageAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetImageAction</servlet-name>
+    <url-pattern>/GetImageAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPieceAction</servlet-name>
+    <url-pattern>/GetPieceAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPieceAction</servlet-name>
+    <url-pattern>/AddPieceAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResultAction</servlet-name>
+    <url-pattern>/ResultAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelUserAction</servlet-name>
+    <url-pattern>/DelUserAction</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

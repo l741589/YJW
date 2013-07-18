@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="SubTab_width">265.0px</dimen>
+    <dimen name="FindFriend_Button_MarginV">20.0px</dimen>
+    <dimen name="Ask_Content_MarginTop">40.0px</dimen>
+    <dimen name="Ask_Opition_W0">165.0px</dimen>
+    <dimen name="Ask_Opition_W1">165.0px</dimen>
+    <dimen name="Ask_Opition_W2">165.0px</dimen>
+    <dimen name="Login_Bg_PaddingBottom">100.0px</dimen>
+    <dimen name="Login_ButtonPaddingBottom">45.0px</dimen>
+    <dimen name="Login_Text_MarginTop">130.0px</dimen>
+    <dimen name="Login_Message_MarginTop">80.0px</dimen>
+    <dimen name="Welcome_Progress_PaddingTop">150.0px</dimen>
+    <dimen name="Main_Logo_Margin_Top">50.0px</dimen>
+    <dimen name="Main_Goto_Margin_Top">53.0px</dimen>
+    <dimen name="Ask_Camera_Margin_Top">30.0px</dimen>
+    <dimen name="Ask_Type_Margin_Top">35.0px</dimen>
+    <dimen name="Ask_AskButton_Margin_Top">40.0px</dimen>
+    <dimen name="Welcom_Logo_Margin_Top">40.0px</dimen>
+    <dimen name="Result_Helper_Cover_Margin_Left">0.0px</dimen>
+    <dimen name="Main_Camera_Margin_Top">50.0px</dimen>
+</resources>
