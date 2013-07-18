@@ -1,11 +1,14 @@
 package com.yjw.test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import com.yjw.bean.Bean;
+import com.yjw.bean.PieceBean;
 import com.yjw.util.shared.ErrorCode;
 
 public class YJWTester extends Tester {
@@ -62,6 +65,21 @@ public class YJWTester extends Tester {
 			map.put("bean", bean.toString());
 		}
 		super.post(map);
+	}
+	
+	@Override
+	public void postData(ByteArrayOutputStream stream) {
+		try {
+			stream.write(((PieceBean)bean).toBytes());
+			super.postData(stream);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}		
+	}
+	
+	@Override
+	public boolean verifyData(byte[] data) {
+		return data!=null&&data.length!=0;
 	}
 
 }

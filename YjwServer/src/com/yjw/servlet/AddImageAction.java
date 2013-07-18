@@ -49,7 +49,7 @@ public class AddImageAction extends HttpServlet {
 				ib.setDid(did);
 				if (imgDao.update(ib)>=0){
 					out.print(ErrorCode.E_SUCCESS);
-					out.print("&+");
+					out.print("&");
 					out.print(did);
 				}else{
 					out.print(ErrorCode.E_ADD_IMGAE_FAILED);

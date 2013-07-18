@@ -1,10 +1,8 @@
-package com.yjw.util;
+package com.yjw.util.shared;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-
-import android.util.Log;
 
 public class BigObject{
 	static public final int PIECE_SIZE = 4096;
@@ -60,7 +58,7 @@ public class BigObject{
 	/**RECV模式获取需接收分片*/
 	public int getPieceToReceive(){
 		if (done()){
-			Log.e("BigObject","Not Done");
+			//Log.e("BigObject","Not Done");
 			return -1;
 		}
 		int i=rate;
@@ -74,7 +72,7 @@ public class BigObject{
 	/**SEND模式获取需发送分片*/
 	public int getPieceToSend(){
 		if (done()) {
-			Log.e("BigObject","Not Done");
+			//Log.e("BigObject","Not Done");
 			return -1;
 		}
 		int i=rate;
@@ -90,7 +88,7 @@ public class BigObject{
 		case RECV:return getPieceToReceive();
 		case SEND:return getPieceToSend();
 		}
-		Log.e("BigObject","Unexperct Mode");
+		//Log.e("BigObject","Unexperct Mode");
 		return -1;
 	}
 	

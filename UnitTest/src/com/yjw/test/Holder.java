@@ -5,10 +5,7 @@ import java.util.Vector;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.yjw.bean.DealBean;
-import com.yjw.bean.RegisterBean;
-import com.yjw.bean.TransBean;
-import com.yjw.bean.UserBean;
+import com.yjw.bean.*;
 
 public class Holder {
 	static ExecutorService pool = Executors.newFixedThreadPool(256);
@@ -19,4 +16,9 @@ public class Holder {
 	static Vector<Integer> dealid=new Vector<Integer>();
 	static Vector<Integer> transid=new Vector<Integer>();
 	static Vector<Integer> userid=new Vector<Integer>();
+	static Vector<byte[]> datas=new Vector<byte[]>();
+	static Vector<AddImageBean> addimgs=new Vector<AddImageBean>();
+	static Vector<ImageBean> imgs=new Vector<ImageBean>();
+	static Vector<Integer> imgids=new Vector<Integer>();
 }
+

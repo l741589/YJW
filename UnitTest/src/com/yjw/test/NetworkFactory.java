@@ -78,7 +78,7 @@ public abstract class NetworkFactory {
 			tester.postData(stream);
 			byte[] data=stream.toByteArray(); 
 			URLConnection connection=new URL(getURL(tester)).openConnection();
-			connection.setRequestProperty("Content-Type","application/x-www-form-urlencoded;charset=UTF-8");
+			connection.setRequestProperty("Content-Type","image/png;charset=UTF-8");
 			connection.setDoOutput(true);
 			connection.setDoInput(true);
 			int len=data.length;
@@ -87,6 +87,7 @@ public abstract class NetworkFactory {
 			outStream.write(data);
 			outStream.flush();  
 			outStream.close();
+			return readResultString(connection.getInputStream());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -21,9 +21,9 @@ import com.yjw.ctrl.ControlCode;
 import com.yjw.ctrl.YJWControler;
 import com.yjw.thread.async.GetImageThread;
 import com.yjw.thread.delayed.BufferBigObjectThread;
-import com.yjw.util.BigObject;
 import com.yjw.util.G;
 import com.yjw.util.YJWMessage;
+import com.yjw.util.shared.BigObject;
 
 public class DealDetailActivity extends BaseActivity {
 

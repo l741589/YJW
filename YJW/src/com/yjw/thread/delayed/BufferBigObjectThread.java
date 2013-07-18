@@ -6,9 +6,9 @@ import com.yjw.bean.PieceBean;
 import com.yjw.ctrl.YJWControler;
 import com.yjw.net.NetworkConstants;
 import com.yjw.thread.YJWBaseThread;
-import com.yjw.util.BigObject;
 import com.yjw.util.G;
 import com.yjw.util.YJWMessage;
+import com.yjw.util.shared.BigObject;
 
 public class BufferBigObjectThread extends YJWBaseThread {
 	
@@ -118,7 +118,5 @@ public class BufferBigObjectThread extends YJWBaseThread {
 		}break;
 		}
 		super.OnSuccess();
-	}
-
-	
+	}	
 }
